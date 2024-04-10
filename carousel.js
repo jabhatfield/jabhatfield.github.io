@@ -6,9 +6,10 @@ gsap.timeline()
       rotateY: (i)=> i*-36,
       transformOrigin: '50% 50% 500px',
       z: -500,
-      backgroundImage:(i)=>'url(https://picsum.photos/id/'+(i+32)+'/600/400/)',
+      backgroundImage:(i)=>'url(1.png)', //url(https://picsum.photos/id/'+(i+32)+'/600/400/)
       backgroundPosition:(i)=>getBgPos(i),
       backfaceVisibility:'hidden'
+
     })
     .from('.img', {
       duration:1.5,
