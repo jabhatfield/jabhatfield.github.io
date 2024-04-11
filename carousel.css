@@ -22,3 +22,20 @@ div, svg {
   top:50%;
   transform:translate(-50%,-50%);
 }
+
+.link {
+    color: #aaaaaa;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    top: 600px;
+    text-align: center;
+    width: 100%;
+}
+
+.link a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #aaaaaa;
+}
